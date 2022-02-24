@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: rgb(61, 60, 60);
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+#bar-container{
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    gap: 2px;
+    transform: scaleX(-1);
+}
+
+
