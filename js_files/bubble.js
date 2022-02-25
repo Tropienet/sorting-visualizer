@@ -1,11 +1,11 @@
-const ARR_SIZE = 100;
+
 
 function timeout(ms){
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 async function bubbleSort(){
-    
+    const ARR_SIZE = 100;
     const elementsArray = document.querySelectorAll(".showcase-bar");
     
    
@@ -34,12 +34,7 @@ async function bubbleSort(){
 
 
 
-function removeElements(){
-    const elementsToDelete = document.querySelectorAll(".showcase-bar");
-    for(let i = 0; i<ARR_SIZE;i++){
-        elementsToDelete[i].remove();
-    }
-}
+
 
 
 
