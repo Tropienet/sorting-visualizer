@@ -23,6 +23,7 @@ body{
     grid-template-columns: repeat(100, 1fr);
     gap: 2px;
     transform: scaleX(-1);
+    background-color: black;
 }
 
 
