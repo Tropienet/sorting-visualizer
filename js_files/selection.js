@@ -36,9 +36,7 @@ function swap(el1, el2){
 
     el1.style.height = transform2;
     el2.style.height = transform1;
-    
-   
-    
+
 }
 
 function createSelectionSortButton() {
