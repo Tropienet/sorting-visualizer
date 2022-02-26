@@ -21,11 +21,15 @@ async function bubbleSort(){
            
             await new Promise(resolve => setTimeout(resolve, 25));
             if(elementsArray[j].clientHeight>elementsArray[j+1].clientHeight){
-                
+                elementsArray[j].style.background="red";
+                elementsArray[j+1].style.background="red";
+                await new Promise(resolve => setTimeout(resolve, 25));
                 swap(elementsArray[j],elementsArray[j+1]);
+                elementsArray[j].style.background="yellow";
+                elementsArray[j+1].style.background="yellow";
 
             }
-        
+            elementsArray[j+1].style.background="green";
         }
     }
 }
